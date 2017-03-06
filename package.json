@@ -1,0 +1,61 @@
+{
+  "name": "ng2-tinymce-alt",
+  "version": "0.0.1",
+  "description": "Angular 2 component for TinyMCE MCE WYSIWYG editor based on 'angular2-tinymce'('https://www.npmjs.com/package/angular2-tinymce')",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --inline"
+  },
+  "keywords": [
+    "angular2",
+    "angular",
+    "component",
+    "module",
+    "tinymce",
+    "wysiwyg",
+    "form-control",
+    "ng-model"
+  ],
+  "author": "orosroman",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "^2.4.4",
+    "@angular/compiler": "^2.4.4",
+    "@angular/core": "^2.4.4",
+    "@angular/forms": "^2.4.4",
+    "@angular/platform-browser": "^2.4.4",
+    "@angular/platform-browser-dynamic": "^2.4.4",
+    "copy-webpack-plugin": "^4.0.1",
+    "core-js": "^2.4.1",
+    "raw-loader": "^0.5.1",
+    "rxjs": "^5.0.3",
+    "tinymce": "^4.5.4",
+    "zone.js": "^0.7.6"
+  },
+  "devDependencies": {
+    "@types/core-js": "^0.9.35",
+    "@types/ip": "0.0.29",
+    "@types/node": "^7.0.3",
+    "angular2-template-loader": "^0.6.0",
+    "awesome-typescript-loader": "^3.0.0-beta.18",
+    "es6-promise": "^4.0.5",
+    "html-webpack-plugin": "^2.26.0",
+    "imports-loader": "^0.7.0",
+    "ip": "^1.1.4",
+    "ts-helpers": "^1.1.2",
+    "ts-node": "^2.0.0",
+    "typescript": "^2.1.5",
+    "webpack": "^2.2.0-rc.3",
+    "webpack-bundle-analyzer": "^2.2.1",
+    "webpack-dev-server": "^2.2.0-rc.0",
+    "webpack-md5-hash": "0.0.5"
+  },
+  "bugs": {
+    "web": "https://github.com/orosroman/ng2-tinymce-alt/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orosroman/ng2-tinymce-alt.git"
+  }
+}
